@@ -1,0 +1,239 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 页面整体背景 */
+.wrap{
+	padding: 20rpx 0;
+	background-color: #f5f5f5;/* 浅灰底色，为了衬托白卡片 */
+	min-height: 100vh;
+}
+.dev-area {
+	display: flex;
+	justify-content: space-between;/* 两端对齐，中间留空 */
+	flex-wrap: wrap;/* 允许换行 */
+	padding: 0 30rpx;/* 左右留出边距 */
+}
+/* 单个卡片样式 */
+.dev-card {
+	height: 160rpx;
+	width: 48%;
+	border-radius: 30rpx;
+	margin-top: 30rpx;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0 4rpx 15rpx rgba(0,0,0,0.05);/* 优化阴影，更柔和 */
+	background-color: #fff;/* 必须设置白色背景 */
+}
+.dev-name {
+	font-size: 26rpx;
+	text-align: center;
+	color: #6d6d6d;
+	margin-bottom: 12rpx;
+}
+.dev-logo {
+	width: 70rpx;
+	height: 70rpx;
+	display: block;
+}
+.dev-data {
+	font-size: 44rpx;/* 数据字体大小 */
+	color: #333;
+	font-weight: 500;
+}
+.unit {
+  font-size: 24rpx;
+  color: #999;
+  margin-left: 4rpx;
+}
+
+
